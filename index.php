@@ -1,11 +1,12 @@
 <?php
+error_reporting(0);
 require_once "config/config.php";
 //require_once "libs/database.php";
 require_once "libs/controller.php";
 require_once "libs/view.php";
 //require_once "libs/model.php";
 require_once "libs/app.php";
-require_once "classes/sitemapgen.php";
-sitemapGenerate();
+//require_once "classes/sitemapgen.php";
+//sitemapGenerate();
 $app = new App;
 ?>
